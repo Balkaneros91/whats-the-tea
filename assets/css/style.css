@@ -1,8 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:ital,wght@1,300&display=swap');
 
-body {
-    background-color: rgb(166, 230, 166);
+* {
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-family: Quicksand, sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+}
 
+/* heading and logo */
+
+h1, h2 {
+    font-family: Raleway, sans-serif;
+}
+
+#logo {
+    float: left;
+    margin: 20px;
+    font-size: 300%;
+    letter-spacing: 3px;
+}
