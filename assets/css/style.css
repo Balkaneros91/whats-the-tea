@@ -109,6 +109,7 @@ h1, h2 {
 #social-media a {
     list-style-type: none;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 
