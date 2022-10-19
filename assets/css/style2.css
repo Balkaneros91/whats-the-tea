@@ -16,7 +16,6 @@ body {
 
 [class*="col-"] {
     float: left;
-    padding: 10px;
 }
 
 .menu ul {
@@ -198,6 +197,10 @@ body {
     color: #3a3a3a;
     float: right;
     margin: 300px 20px;
+}
+
+#about a, #contact a{
+    text-decoration: none;
 }
 
 #social-media {
