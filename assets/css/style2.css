@@ -18,10 +18,7 @@ body {
     float: left;
 }
 
-
-
-
-/* My part */
+/* logo and menu bar */
 #page-logo > a {
     text-decoration: none;
     color: #3a3a3a;
@@ -30,8 +27,8 @@ body {
 #logo {
     font-family: 'Great Vibes', sans-serif;
     font-size: 300%;
-    letter-spacing: 2px;
-    margin-left: 25px;
+    letter-spacing: 4px;
+    margin-left: 10px;
 }
 
 #menu {
@@ -53,8 +50,10 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* background logo pic and quote */
+
 #logo-image {
-    height: 800px;
+    height: 600px;
     background: url(../image/spill-tea2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -74,8 +73,9 @@ body {
     padding: 5px;
 }
 
+/* about us */
+
 #main-about, #main-contact {
-    height: 400px;
     text-align: center;
 }
 
@@ -89,11 +89,7 @@ body {
     text-decoration:none;
 }
 
-#info {
-    float: right;
-}
-
-#about-us {
+#about-us, #contact-us {
     height: 200px;
     border: 2px solid rgb(49, 51, 49);
     overflow: hidden;
@@ -107,12 +103,6 @@ body {
     font-size: large;
 }
 
-#social-media {
-    color: black;
-    text-align: center;
-    font-size: 12px;
-    padding: 15px;
-}
 
 #info li {
     font-family: 'Arbutus Slab', sans-serif;
@@ -130,11 +120,24 @@ body {
     font-size: medium;
 }
 
+#social-media {
+    text-align: center;
+    font-size: 130%;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+#footer span {
+    font-size: 80%;
+}
+
 #social-media a {
+    color: black;
     list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
+    margin: 10px;
 }
 
 #copyright {
@@ -155,26 +158,37 @@ body {
 
 /* buy ticket form */
 
-#logo-image > form {
-    position: absolute;
+#buy-ticket {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#form {
+    background-color: lightcoral;
+    padding: 10px;
+    border: 1px solid #3a3a3a;
+    margin-top: 20px;
 }
 
 .form {
-    font-style: italic;
-    float: right;
-    margin: 100px 10% 0 0;
+    margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 500px;
+    max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 30px;
 }
 
-.inputs {
+.txt-input {
+    background: transparent;
+    color: #fafafa;
     width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
-
 
 
 /* For mobile phones: */
@@ -231,6 +245,10 @@ body {
 
     .col-s-12 {
         width: 100%;
+    }
+
+    #logo-image {
+        height: 400px;
     }
 
     #photos {
@@ -291,7 +309,12 @@ body {
         width: 100%;
     }
 
+    #logo-image {
+        height: 600px;
+    }
+
     #photos {
         column-count: 3;
     }
+
 }
