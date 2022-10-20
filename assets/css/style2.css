@@ -84,7 +84,7 @@ body {
 }
 
 #about h2, #contact h2 {
-    font-family:Acme,sans-serif;
+    font-family: Acme,sans-serif;
     color: #3a3a3a;
     text-decoration:none;
 }
@@ -96,28 +96,11 @@ body {
 }
 
 #about-us h3 {
-    font-family:Acme,sans-serif;
+    font-family: Acme,sans-serif;
 }
 
 #about-us > p {
     font-size: large;
-}
-
-
-#info li {
-    font-family: 'Arbutus Slab', sans-serif;
-    display: grid;
-    text-align: center;
-}
-
-#info i {
-    font-size: large;
-    font-weight: 2px;
-}
-
-#info p{
-    font-family: Lato, sans-serif;
-    font-size: medium;
 }
 
 #social-media {
@@ -125,10 +108,6 @@ body {
     font-size: 130%;
     padding: 20px;
     margin-top: 15px;
-}
-
-#footer span {
-    font-size: 80%;
 }
 
 #social-media a {
