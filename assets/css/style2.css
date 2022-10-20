@@ -18,32 +18,163 @@ body {
     float: left;
 }
 
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+
+
+/* My part */
+#page-logo > a {
+    text-decoration: none;
+    color: #3a3a3a;
 }
 
-.menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color: #33b5e5;
-    color: black;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+#logo {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 300%;
+    letter-spacing: 2px;
+    margin-left: 25px;
 }
 
-.menu li:hover {
-    background-color: #0099cc;
+#menu {
+    font-size: 200%;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 25px;
 }
 
-.aside {
-    background-color: #33b5e5;
-    padding: 15px;
+
+#menu a {
+    font-family: Acme, sans-serif;
+    font-size: medium;
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#logo-image {
+    height: 800px;
+    background: url(../image/spill-tea2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+}
+
+#qutoation {
+    font-family: Acme, sans-serif;
+    font-size: 95%;
+    font-style: italic;
+    background-color: rgba(242, 245, 159, 0.5);
+    color: #3a3a3a;
+    float: right;
+    margin-top: 250px;
+    border: 1px solid #3a3a3a;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+#main-about, #main-contact {
+    height: 400px;
+    text-align: center;
+}
+
+#about a, #contact a{
+    text-decoration: none;
+}
+
+#about h2, #contact h2 {
+    font-family:Acme,sans-serif;
+    color: #3a3a3a;
+    text-decoration:none;
+}
+
+#info {
+    float: right;
+}
+
+#about-us {
+    height: 200px;
+    border: 2px solid rgb(49, 51, 49);
+    overflow: hidden;
+}
+
+#about-us h3 {
+    font-family:Acme,sans-serif;
+}
+
+#about-us > p {
+    font-size: large;
+}
+
+#social-media {
     color: black;
     text-align: center;
-    font-size: 14px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    font-size: 12px;
+    padding: 15px;
 }
+
+#info li {
+    font-family: 'Arbutus Slab', sans-serif;
+    display: grid;
+    text-align: center;
+}
+
+#info i {
+    font-size: large;
+    font-weight: 2px;
+}
+
+#info p{
+    font-family: Lato, sans-serif;
+    font-size: medium;
+}
+
+#social-media a {
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#copyright {
+    text-align: center;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-gap: 0;
+}
+
+#photos img {
+    width: 100%;
+}
+
+/* buy ticket form */
+
+#logo-image > form {
+    position: absolute;
+}
+
+.form {
+    font-style: italic;
+    float: right;
+    margin: 100px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 500px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.inputs {
+    width: 100%;
+}
+
 
 
 /* For mobile phones: */
@@ -101,6 +232,12 @@ body {
     .col-s-12 {
         width: 100%;
     }
+
+    #photos {
+        width: 100%;
+        column-count: 2;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -153,97 +290,8 @@ body {
     .col-12 {
         width: 100%;
     }
-}
 
-
-#logo {
-    font-family: 'Great Vibes', sans-serif;
-    font-size: 300%;
-    letter-spacing: 2px;
-    margin-left: 25px;
-}
-
-#menu {
-    font-size: 200%;
-    text-align: center;
-    letter-spacing: 1px;
-    margin-top: 25px;
-}
-
-
-#menu a {
-    font-family: Acme, sans-serif;
-    font-size: medium;
-    color: #3a3a3a;
-    text-decoration: none;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-#logo-image {
-    height: 600px;
-    background: url(../image/spill-tea2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    object-fit: cover;
-}
-
-#qutoation {
-    font-family: Acme, sans-serif;
-    font-size: 95%;
-    font-style: italic;
-    color: #3a3a3a;
-    float: right;
-    margin: 300px 20px;
-}
-
-#about a, #contact a{
-    text-decoration: none;
-}
-
-#social-media {
-    color: black;
-    text-align: center;
-    font-size: 12px;
-    padding: 15px;
-}
-
-#info li {
-    font-family: 'Arbutus Slab', sans-serif;
-    display: grid;
-    text-align: center;
-}
-
-#info i {
-    font-size: large;
-    font-weight: 2px;
-}
-
-#info p{
-    font-family: Lato, sans-serif;
-    font-size: medium;
-}
-
-#social-media a {
-    list-style-type: none;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-#copyright {
-    text-align: center;
-}
-
-.ticket-form {
-    clear: left;
-}
-
-.form {
-    margin: 180px 10% 0 0;
-    color: black;
-    background-color: rgb(229 240 207 .6);
-    color: light;
+    #photos {
+        column-count: 3;
+    }
 }

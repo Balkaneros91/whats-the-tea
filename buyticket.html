@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,14 +14,14 @@
         <title>What's the Tea?</title>
     </head>
 
-<body>
-
-    <div class="row">
-        <div class="col-6">
-            <a href="index2.html">
-                <h1 id="logo">What's the Tea <i class="fa-regular fa-circle-question"></i></h1>
-            </a>
-        </div>
+    <body>
+        <!-- Logo -->
+        <div class="row">
+            <div class="col-6" id="page-logo">
+                <a href="index2.html" style="text-decoration:none;">
+                    <h1 id="logo" style="color:#3a3a3a;">What's the Tea <i class="fa-regular fa-circle-question"></i></h1>
+                </a>
+            </div>
 
         <div class="col-6" id="menu">
 
@@ -35,9 +33,9 @@
         </div>
     </div>
 
-    <div class="row" id="logo-image" id="ticket-form">
+    <div class="row" id="logo-image">
 
-        <div class="col-6 col-s-6 buy-ticket">
+        <div class="col-6 col-s-6 col-s-12 buy-ticket">
 
             <form class="form" method="post" action="https://formdump.codeinstitute.net/">
                 <h2>Let's buy the ticket(s)! <i class="fa-solid fa-credit-card"></i></h2>
@@ -52,26 +50,12 @@
 
                 <label for="e-mail">E-mail address</label>
                 <input type="email" name="email" id="e-mail" required>
-
+                <hr>
                 <input type="submit" value="Buy ticket!">
 
             </form>
         </div>
 
-        <!--
-        <section>
-            <label for="f-name">First name</label>
-            <input type="text" name="fname" id="f-name">
-
-            <label for="l-name">Last name</label>
-            <input type="text" name="lname" id="l-name">
-
-            <label for="e-mail">E-mail address</label>
-            <input type="email" name="email" id="e-mail">
-
-            <input type="submit" value="Buy ticket!" >
-        </section>
-        -->
     </div>
 
 
