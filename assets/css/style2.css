@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:lightpink;
+    background-color:rgb(214, 218, 222);
 }
 
 .row::after {
@@ -38,6 +38,10 @@ body {
     margin-top: 25px;
 }
 
+#page-logo, #menu {
+    padding-top: 20px;
+}
+
 
 #menu a {
     font-family: Acme, sans-serif;
@@ -53,12 +57,29 @@ body {
 /* background logo pic and quote */
 
 #logo-image {
-    height: 600px;
+    height: 450px;
+    width: 100%;
     background: url(../image/spill-tea2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     object-fit: cover;
+
+/* animates zoom effect on loading page */
+animation-name: logo-zoom;
+animation-duration: 10s;
+animation-fill-mode: forwards;
 }
+
+/* creates the level of zoom for hero image */
+@keyframes logo-zoom {
+from {
+    transform: scale(1);
+}
+to {
+    transform: scale(1.1);
+}
+}
+
 
 #qutoation {
     font-family: Acme, sans-serif;
@@ -68,9 +89,9 @@ body {
     color: #3a3a3a;
     float: right;
     margin-top: 250px;
-    border: 1px solid #3a3a3a;
+    margin-right: 25px;
     border-radius: 10%;
-    padding: 5px;
+    padding-left: 35px;
 }
 
 /* about us */
@@ -137,26 +158,20 @@ body {
 
 /* buy ticket form */
 
-#buy-ticket {
+#form-image {
+    background: url('../image/love-is-love.jpg') no-repeat center center;
+    background-size: 100%;
+}
+
+#registration-form {
     width: 80%;
     margin-left: 10%;
 }
 
 #form {
-    background-color: lightcoral;
-    padding: 10px;
-    border: 1px solid #3a3a3a;
-    margin-top: 20px;
-}
-
-.form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
+    background-color: rgb(223 193 193 / 60%);
+    padding: 20px;
+    margin: 90px;
 }
 
 .txt-input {
@@ -165,8 +180,15 @@ body {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid #3a3a3a;
     border-radius: 2px;
+}
+
+#join-btn {
+    background-color: transparent;
+    border: 1px solid #3a3a3a;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 
@@ -226,10 +248,6 @@ body {
         width: 100%;
     }
 
-    #logo-image {
-        height: 400px;
-    }
-
     #photos {
         width: 100%;
         column-count: 2;
@@ -286,10 +304,6 @@ body {
 
     .col-12 {
         width: 100%;
-    }
-
-    #logo-image {
-        height: 600px;
     }
 
     #photos {
