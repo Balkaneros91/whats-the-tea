@@ -79,7 +79,6 @@ to {
 }
 }
 
-
 #qutoation {
     font-family: Acme, sans-serif;
     font-size: 95%;
@@ -89,6 +88,7 @@ to {
     margin-top: 250px;
     margin-right: 25px;
     padding-left: 35px;
+    background-color: rgb(240, 237, 230);
 }
 
 /* about us */
@@ -184,7 +184,6 @@ to {
     font-size: 100%;
     padding: 15px;
 }
-
 
 
 /* footer */

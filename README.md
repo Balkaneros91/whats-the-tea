@@ -170,13 +170,13 @@ I was inspired by the RuPaul's Drag Race show created by RuPaul Charles who is t
 
 ## User Experience (UX)
 
-Visitors who wish to hire a music studio to record their own ideas should find this website modern and inticing. My goal is for the visitor to feel like this is a professional and luxury studio, with a beautiful location, and all the neccessary equipment for recording an album in a distraction-free environment.
+Visitors looking for a safe place to share their stories and a good laugh should find this website interesting and charming. We are a charitable organization with a goal of sharing information and helping people to get the answers they are looking for or in case  they need even further help pointing them towards the right direction.  
 
-A description about the studio is accessible on the front page, and if the visitor wants to see more visual content, the gallery page provides the viewer with an idea of what the studio looks like, as well as the surrounding area. 
+The front page provides the visitor with a short introduction and the events contacts and info. Besides that they can get some more refreshing and inspiring photos in the webites gallery. 
 
-If you wish to contact the studio or make a request, the contact page provides all information needed. 
+In case you wanna have some fun and share your story proceed to our sign up page. 
 
-The website is viewable from different screen sizes, so every user can browse the the site.
+The website is viewable from different screen sizes, so every user can browse the site.
 
 ### User Stories
 
