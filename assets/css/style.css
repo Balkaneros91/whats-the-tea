@@ -40,6 +40,7 @@ body {
     text-align: center;
     letter-spacing: 1px;
     margin-top: 25px;
+    padding-top: 8px;
 }
 
 #menu a {
@@ -62,10 +63,11 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     object-fit: cover;
+    margin: 20px 0 10px 0;
 
 /* animates zoom effect on loading page */
 animation-name: logo-zoom;
-animation-duration: 10s;
+animation-duration: 5s;
 animation-fill-mode: forwards;
 }
 
@@ -79,7 +81,7 @@ to {
 }
 }
 
-#qutoation {
+#quotation {
     font-family: Acme, sans-serif;
     font-size: 95%;
     font-style: italic;
@@ -87,8 +89,9 @@ to {
     float: right;
     margin-top: 250px;
     margin-right: 25px;
-    padding-left: 35px;
+    padding: 15px;
     background-color: rgb(240, 237, 230);
+    position: relative;
 }
 
 /* about us */
@@ -113,7 +116,7 @@ to {
 }
 
 #establish, #empower, #inspire, #inspire1 {
-    height: 200px;
+    height: 250px;
     overflow: hidden;
 }
 
@@ -230,18 +233,18 @@ to {
     width: 100%;
 }
 
-/* buy ticket form */
+/* sign up form */
 
 #form-image {
-    background: url('../image/love-is-love.jpg') no-repeat center center;
+    background: url('../image/love-is-love.jpg');
     background-repeat: no-repeat;
+    background-position: center;
     background-size: 100%;
     object-fit: cover;
-    padding: 40px;
+    padding: 50px;
 }
 
 #registration-form {
-    width: 80%;
     margin-left: 10%;
 }
 
@@ -252,7 +255,7 @@ to {
 
 .txt-input {
     background: transparent;
-    color: #fafafa;
+    color: black;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -262,9 +265,10 @@ to {
 
 #join-btn {
     background-color: transparent;
-    border: 1px solid #3a3a3a;
+    border: 2px solid #3a3a3a;
     border-radius: 20px;
     padding: 10px;
+    font-size: medium;
 }
 
 
@@ -273,7 +277,7 @@ to {
     width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 300px) {
 
     /* For tablets: */
     .col-s-1 {
@@ -324,14 +328,122 @@ to {
         width: 100%;
     }
 
+    #page-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    #quotation {
+        width: 90%;
+        text-align: center;
+    }
+
     #photos {
         width: 100%;
-        column-count: 2;
+    }
+
+    #registration-form {
+        width: 80%;
     }
 
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 400px) {
+    #quotation {
+        width: 45%;
+        text-align: center;
+    }
+
+    #page-logo {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 920px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    #photos {
+        column-count: 2;
+        width: 100%;
+    }
+
+    #page-logo {
+        width: 40%;
+    }
+
+    #menu {
+        width: 60%;
+        padding-top: 12px;
+    }
+    
+
+    #logo-image {
+        height: 600px;
+    }
+
+    #quotation {
+        margin-top: 400px;
+        width: 55%;
+        text-align: center;
+    }
+
+    #form-image {
+        padding: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
 
     /* For desktop: */
     .col-1 {
@@ -387,4 +499,81 @@ to {
         width: 100%;
     }
 
+    #logo-image {
+        height: 800px;
+    }
+
+    #quotation {
+        margin-top: 500px;
+        width: 55%;
+        text-align: center;
+
+    }
+
+    #form-image {
+        padding: 200px;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+
+    /* For huge screen: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    #logo-image {
+        height: 1000px;
+    }
+
+    #quotation {
+        margin-top: 500px;
+        width: 55%;
+        text-align: center;
+    }
 }
