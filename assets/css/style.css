@@ -1,122 +1,391 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Great+Vibes&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: Quicksand, sans-serif;
-    font-weight: 400;
-    color: red;
+    background-color: #2E4756;
 }
 
-/* heading and logo */
-
-header {
-    overflow: hidden;
-    background-color: lightyellow;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-h1, h2 {
-    font-family: Raleway, sans-serif;
+[class*="col-"] {
+    float: left;
+}
+
+/* logo and menu bar */
+#page-logo > a {
+    text-decoration: none;
+    color: rgb(240, 237, 230);
+}
+
+#page-header {
+    background-color: #2E4756;
 }
 
 #logo {
-    float: left;
-    margin-left: 15px;
+    font-family: 'Great Vibes', sans-serif;
     font-size: 300%;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    margin-left: 10px;
 }
 
-/* nav-bar links */
-
-#nav-bar {
-    font-size: 130%;
-    letter-spacing: 3px;
+#menu {
+    font-size: 200%;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 25px;
 }
 
-#nav-bar, #logo {
-    line-height: 80px;
-}
-
-#nav-bar li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-}
-
-#nav-bar a {
+#menu a {
+    font-family: Acme, sans-serif;
+    font-size: medium;
+    color: rgb(240, 237, 230);
     text-decoration: none;
-    color: inherit;
-}
-
-#nav-bar a:hover {
-    border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid rgb(240, 237, 230);
 }
 
-/* cover image + quotation */
+/* background logo pic and quote */
 
-#main-look {
-    height: 600px;
+#logo-image {
+    height: 450px;
     width: 100%;
-    overflow: hidden;
-
-    position: relative;
-}
-
-#quotation, #quotation h2 {
-    color: red;
-}
-
-#main-image {
-    width: 100%;
-    height: 600px;
-    background: url(../image/spill-tea2.jpg);
+    background: url(../image/spilling-tea.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     object-fit: cover;
+
+/* animates zoom effect on loading page */
+animation-name: logo-zoom;
+animation-duration: 10s;
+animation-fill-mode: forwards;
 }
 
-#quotation {
-    font-size: 150%;
-    font-family: Raleway, sans-serif;
+/* creates the level of zoom for hero image */
+@keyframes logo-zoom {
+from {
+    transform: scale(1.1);
+}
+to {
+    transform: scale(1);
+}
+}
+
+
+#qutoation {
+    font-family: Acme, sans-serif;
+    font-size: 95%;
+    font-style: italic;
+    color: #3a3a3a;
+    float: right;
+    margin-top: 250px;
+    margin-right: 25px;
+    padding-left: 35px;
+}
+
+/* about us */
+
+#main-about, #main-contact {
+    text-align: center;
+}
+
+#about, #contact {
+    background-color: #2E4756;
+}
+
+#about a, #contact a{
+    text-decoration: none;
+}
+
+#about h2, #contact h2 {
+    font-family: Acme, sans-serif;    
+    color: rgb(240, 237, 230);    
+    text-decoration:none;
     text-transform: uppercase;
-    letter-spacing: .8px;
-    width: 300px;
-    height: 300px;
-    padding-top: 10px;
-    padding-left: 20px;
-    background-color: rgb(253 255 0 / 60%);
-    bottom: 30px;
-    right: 100px;
-    position: absolute;
+}
+
+#establish, #empower, #inspire, #inspire1 {
+    height: 200px;
+    overflow: hidden;
+}
+
+#establish {
+    background-color: #DBC3D0;
+}
+
+#empower {
+    background-color: #8C9EAC;
+}
+
+#inspire {
+    background-color: #3C7A89;
+}
+
+#inspire1 {
+    background-color: #E6B2A6;
+}
+
+#establish h3, #empower h3, #inspire h3, #inspire1 h3 {
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+#establish > p, #empower > p, #inspire > p, #inspire1 > p {
+    font-size: 100%;    
+    padding: 15px;
+}
+
+#establish {
+    background-color: #DBC3D0;
+}
+    
+#empower {
+    background-color: #8C9EAC;
+}
+    
+#inspire {
+    background-color: #3C7A89;
+}
+    
+#inspire1 {
+    background-color: #E6B2A6;
+}
+
+#support {
+    background-color: #E6B2A6;
+    }
+
+#date {
+    background-color: #8C9EAC;
+}
+
+#email {
+    background-color: #3C7A89;
+}
+
+#location {
+    background-color: #DBC3D0;
+}
+
+#support h3, #email h3, #date h3, #location h3 {
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+#support > p, #email > p, #date > p, #location > p {
+    font-size: 100%;
+    padding: 15px;
 }
 
 
-/* Footer */
+
+/* footer */
+
+#page-footer {
+    background-color: #2E4756;
+
+}
 
 #social-media {
-    width: 100%;
-    height: 250px;
-    font-size: medium;
+    text-align: center;
+    font-size: 130%;
+    padding: 20px;
+    margin-top: 15px;
 }
 
 #social-media a {
+    color: rgb(240, 237, 230);
     list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
+    display: inline-block;
+    margin: 10px;
+}
+
+#copyright {
+    text-align: center;
+}
+
+#copyright p {
+    font-size: small;
+    color: rgb(240, 237, 230);
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-gap: 0;
+}
+
+#photos img {
+    width: 100%;
+}
+
+/* buy ticket form */
+
+#form-image {
+    background: url('../image/love-is-love.jpg') no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    padding: 40px;
+}
+
+#registration-form {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#form {
+    background-color: rgb(223 193 193 / 85%);
+    padding: 20px;
+}
+
+.txt-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #3a3a3a;
+    border-radius: 2px;
+}
+
+#join-btn {
+    background-color: transparent;
+    border: 1px solid #3a3a3a;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    #nav-bar {width: 250px;float: left;}
-    /* #main {margin-left: 216px;} */
-    #main-look {height: 600px;}
-    #social-media { height: 250px; float: left;}
-  }
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+
+    #photos {
+        width: 100%;
+        column-count: 2;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    #photos {
+        column-count: 3;
+        width: 100%;
+    }
+
+}
