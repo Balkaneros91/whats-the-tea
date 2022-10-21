@@ -356,13 +356,17 @@ I have written most content on the website. Some code has been borrowed from oth
 
 ###  Media
 
-All images are royalty free and has been taken from [Pexels](https://www.pexels.com/sv-se/) and [Unsplash](https://unsplash.com/).
+All images are royalty free and has been taken from
+[Unsplash](https://unsplash.com/) and
+[Pexels](https://www.pexels.com/sv-se/) plus
+some private pictures.
   
 ###  Acknowledgments
 
-I would like to thank and acknowledge the following people, who has showed invaluable support throughout my first project:
+And last but not least a big thanks and loads of kudos to those who has in some way helped me so I could complete my first project:  
 
-- Dan Ford, boyfriend and biggest supporter.
-- Mitko Bachvarov, my mentor at Code Institute. 
+- Nedicto Entenza Gutierrez, my husband.
+- Antonio Rodriguez, my mentor at Code Institute.
+- Sawyer, our cooridinator and mental column.
+- Gemma our lovely tutor at Code Institute.
 - Kera Cudmore, for the README webinar and this README template.
-- Malin, from the Swedish Slack community Tjejer Kodar.
