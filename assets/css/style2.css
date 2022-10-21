@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:rgb(214, 218, 222);
+    background-color: #2E4756;
 }
 
 .row::after {
@@ -21,7 +21,11 @@ body {
 /* logo and menu bar */
 #page-logo > a {
     text-decoration: none;
-    color: #3a3a3a;
+    color: rgb(240, 237, 230);
+}
+
+#page-header {
+    background-color: #2E4756;
 }
 
 #logo {
@@ -41,7 +45,7 @@ body {
 #menu a {
     font-family: Acme, sans-serif;
     font-size: medium;
-    color: #3a3a3a;
+    color: rgb(240, 237, 230);
     text-decoration: none;
 }
 
@@ -54,11 +58,9 @@ body {
 #logo-image {
     height: 450px;
     width: 100%;
-    background: url(../image/spill-tea2.jpg);
+    background: url(../image/spilling-tea.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    border: 1px solid #3a3a3a;
-    border-radius: 20px;
     object-fit: cover;
 
 /* animates zoom effect on loading page */
@@ -70,10 +72,10 @@ animation-fill-mode: forwards;
 /* creates the level of zoom for hero image */
 @keyframes logo-zoom {
 from {
-    transform: scale(1);
+    transform: scale(1.1);
 }
 to {
-    transform: scale(1.1);
+    transform: scale(1);
 }
 }
 
@@ -95,37 +97,106 @@ to {
     text-align: center;
 }
 
+#about, #contact {
+    background-color: #2E4756;
+}
+
 #about a, #contact a{
     text-decoration: none;
 }
 
 #about h2, #contact h2 {
-    font-family: Acme,sans-serif;
-    color: #3a3a3a;
+    font-family: Acme, sans-serif;    
+    color: rgb(240, 237, 230);    
     text-decoration:none;
+    text-transform: uppercase;
 }
 
-#about-us {
+#establish, #empower, #inspire, #inspire1 {
     height: 200px;
-    border: 1px solid rgb(49, 51, 49);
     overflow: hidden;
-    border-radius: 20px;
-
 }
 
 #contact-us {
     height: 100px;
-    border: 1px solid rgb(49, 51, 49);
     overflow: hidden;
-    border-radius: 20px;
 }
 
-#about-us h3 {
-    font-family: Acme,sans-serif;
+#establish {
+    background-color: #DBC3D0;
 }
 
-#about-us > p {
-    font-size: large;
+#empower {
+    background-color: #8C9EAC;
+}
+
+#inspire {
+    background-color: #3C7A89;
+}
+
+#inspire1 {
+    background-color: #E6B2A6;
+}
+
+#establish h3, #empower h3, #inspire h3, #inspire1 h3 {
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+#establish > p, #empower > p, #inspire > p, #inspire1 > p {
+    font-size: 100%;    
+    padding: 15px;
+}
+
+#establish {
+    background-color: #DBC3D0;
+}
+    
+#empower {
+    background-color: #8C9EAC;
+}
+    
+#inspire {
+    background-color: #3C7A89;
+}
+    
+#inspire1 {
+    background-color: #E6B2A6;
+}
+
+#support {
+    background-color: #E6B2A6;
+    }
+
+#date {
+    background-color: #8C9EAC;
+}
+
+#email {
+    background-color: #3C7A89;
+}
+
+#location {
+    background-color: #DBC3D0;
+}
+
+#support h3, #email h3, #date h3, #location h3 {
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+#support > p, #email > p, #date > p, #location > p {
+    font-size: 100%;
+    padding: 15px;
+}
+
+
+
+/* footer */
+
+#page-footer {
+    background-color: #2E4756;
+
 }
 
 #social-media {
@@ -136,7 +207,7 @@ to {
 }
 
 #social-media a {
-    color: black;
+    color: rgb(240, 237, 230);
     list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
@@ -146,6 +217,11 @@ to {
 
 #copyright {
     text-align: center;
+}
+
+#copyright p {
+    font-size: small;
+    color: rgb(240, 237, 230);
 }
 
 /* gallery */
