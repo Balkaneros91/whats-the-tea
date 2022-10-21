@@ -50,7 +50,7 @@ body {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid rgb(240, 237, 230);
 }
 
 /* background logo pic and quote */
@@ -114,11 +114,6 @@ to {
 
 #establish, #empower, #inspire, #inspire1 {
     height: 200px;
-    overflow: hidden;
-}
-
-#contact-us {
-    height: 100px;
     overflow: hidden;
 }
 
@@ -240,7 +235,10 @@ to {
 
 #form-image {
     background: url('../image/love-is-love.jpg') no-repeat center center;
+    background-repeat: no-repeat;
     background-size: 100%;
+    object-fit: cover;
+    padding: 40px;
 }
 
 #registration-form {
@@ -249,9 +247,8 @@ to {
 }
 
 #form {
-    background-color: rgb(223 193 193 / 60%);
+    background-color: rgb(223 193 193 / 85%);
     padding: 20px;
-    margin: 90px;
 }
 
 .txt-input {
