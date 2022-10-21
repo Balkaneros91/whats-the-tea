@@ -38,11 +38,6 @@ body {
     margin-top: 25px;
 }
 
-#page-logo, #menu {
-    padding-top: 20px;
-}
-
-
 #menu a {
     font-family: Acme, sans-serif;
     font-size: medium;
@@ -62,6 +57,8 @@ body {
     background: url(../image/spill-tea2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    border: 1px solid #3a3a3a;
+    border-radius: 20px;
     object-fit: cover;
 
 /* animates zoom effect on loading page */
@@ -85,12 +82,10 @@ to {
     font-family: Acme, sans-serif;
     font-size: 95%;
     font-style: italic;
-    background-color: rgba(242, 245, 159, 0.5);
     color: #3a3a3a;
     float: right;
     margin-top: 250px;
     margin-right: 25px;
-    border-radius: 10%;
     padding-left: 35px;
 }
 
@@ -110,10 +105,19 @@ to {
     text-decoration:none;
 }
 
-#about-us, #contact-us {
+#about-us {
     height: 200px;
-    border: 2px solid rgb(49, 51, 49);
+    border: 1px solid rgb(49, 51, 49);
     overflow: hidden;
+    border-radius: 20px;
+
+}
+
+#contact-us {
+    height: 100px;
+    border: 1px solid rgb(49, 51, 49);
+    overflow: hidden;
+    border-radius: 20px;
 }
 
 #about-us h3 {
