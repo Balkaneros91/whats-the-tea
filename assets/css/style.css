@@ -8,6 +8,8 @@ body {
     background-color: #2E4756;
 }
 
+/* inspiration from w3schools */
+
 .row::after {
     content: "";
     clear: both;
@@ -19,6 +21,7 @@ body {
 }
 
 /* logo and menu bar */
+
 #page-logo > a {
     text-decoration: none;
     color: rgb(240, 237, 230);
@@ -111,10 +114,6 @@ to {
     color: rgb(240, 237, 230);    
     text-decoration:none;
     text-transform: uppercase;
-}
-
-#establish, #empower, #inspire, #wise-man {
-    height: 250px;
 }
 
 #establish {
@@ -274,9 +273,6 @@ to {
 @media screen and (min-width: 250px) {
 
     /* For tablets: */
-    .col-s-1 {
-        width: 8.33%;
-    }
 
     .col-s-2 {
         width: 16.66%;
@@ -290,32 +286,8 @@ to {
         width: 33.33%;
     }
 
-    .col-s-5 {
-        width: 41.66%;
-    }
-
     .col-s-6 {
         width: 50%;
-    }
-
-    .col-s-7 {
-        width: 58.33%;
-    }
-
-    .col-s-8 {
-        width: 66.66%;
-    }
-
-    .col-s-9 {
-        width: 75%;
-    }
-
-    .col-s-10 {
-        width: 83.33%;
-    }
-
-    .col-s-11 {
-        width: 91.66%;
     }
 
     .col-s-12 {
@@ -327,6 +299,10 @@ to {
         text-align: center;
     }
 
+    #logo-image {
+        background-size: 100%;
+    }
+
     #quotation {
         width: 90%;
         text-align: center;
@@ -334,10 +310,15 @@ to {
 
     #photos {
         width: 100%;
+        margin-top: 10px;
     }
 
     #registration-form {
         width: 80%;
+    }
+
+    #establish, #empower, #inspire, #wise-man {
+        height: 250px;
     }
 
 }
@@ -354,17 +335,14 @@ to {
     }
 
     #establish, #empower, #inspire, #wise-man {
-        height: 150px;
+        height: 180px;
     }
-}
 
+}
 
 @media screen and (min-width: 920px) {
 
     /* For desktop: */
-    .col-1 {
-        width: 8.33%;
-    }
 
     .col-2 {
         width: 16.66%;
@@ -378,32 +356,8 @@ to {
         width: 33.33%;
     }
 
-    .col-5 {
-        width: 41.66%;
-    }
-
     .col-6 {
         width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
     }
 
     .col-12 {
@@ -424,7 +378,6 @@ to {
         padding-top: 12px;
     }
     
-
     #logo-image {
         height: 600px;
     }
@@ -448,9 +401,6 @@ to {
 @media screen and (min-width: 1200px) {
 
     /* For desktop: */
-    .col-1 {
-        width: 8.33%;
-    }
 
     .col-2 {
         width: 16.66%;
@@ -464,32 +414,8 @@ to {
         width: 33.33%;
     }
 
-    .col-5 {
-        width: 41.66%;
-    }
-
     .col-6 {
         width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
     }
 
     .col-12 {
@@ -509,7 +435,6 @@ to {
         margin-top: 500px;
         width: 55%;
         text-align: center;
-
     }
 
     #form-image {
@@ -521,9 +446,6 @@ to {
 @media screen and (min-width: 1500px) {
 
     /* For huge screen: */
-    .col-1 {
-        width: 8.33%;
-    }
 
     .col-2 {
         width: 16.66%;
@@ -537,32 +459,8 @@ to {
         width: 33.33%;
     }
 
-    .col-5 {
-        width: 41.66%;
-    }
-
     .col-6 {
         width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
     }
 
     .col-12 {
