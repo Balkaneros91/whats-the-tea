@@ -1,126 +1,3 @@
-# Markdown Cheat Sheet
-
-Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
-
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
-
-## Basic Syntax
-
-These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
-
-### Heading
-
-# H1
-## H2
-### H3
-
-### Bold
-
-**bold text**
-
-### Italic
-
-*italicized text*
-
-### Blockquote
-
-> blockquote
-
-### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-### Unordered List
-
-- First item
-- Second item
-- Third item
-
-### Code
-
-`code`
-
-### Horizontal Rule
-
----
-
-### Link
-
-[Markdown Guide](https://www.markdownguide.org)
-
-### Image
-
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
-
-## Extended Syntax
-
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
-
-### Table
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-### Fenced Code Block
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-
-### Footnote
-
-Here's a sentence with a footnote. [^1]
-
-[^1]: This is the footnote.
-
-### Heading ID
-
-### My Great Heading {#custom-id}
-
-### Definition List
-
-term
-: definition
-
-### Strikethrough
-
-~~The world is flat.~~
-
-### Task List
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-### Emoji
-
-That is so funny! :joy:
-
-(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
-
-### Highlight
-
-I need to highlight these ==very important words==.
-
-### Subscript
-
-H~2~O
-
-### Superscript
-
-X^2^
-
----
----
----
 # What's the Tea?
 
 What's the Tea? is an idea I came up with just exclusivly for this project. The organization is located in Stockholm. The main goal is to spread positivity, care and love and everyone is welcome no matter the gender. The website presents a Home page with an 'About' and 'Contact & Info' section. The Gallery page is built from a bunch of inspirational lgbtq+ photos. And last but not least the Sign Up page contains the events sign up form.
@@ -128,9 +5,9 @@ What's the Tea? is an idea I came up with just exclusivly for this project. The 
 I was inspired by the RuPaul's Drag Race show created by RuPaul Charles who is the ICON of the LGBTQ+ comunity all over the world. The show has grown a lot and as a member of the LGBTQ+ comunity I wanted to celebrate my pride by creating my first project based on this idea. 
 
 ---
-![amiresponsive](assets/readme/amiresponsive.jpg)
+![amiresponsive](assets/readme/amiresponsive.png)
 
-[View live site on Github Pages](https://nicolemne.github.io/project-portfolio-1/)
+[View live site on Github Pages](https://balkaneros91.github.io/whats-the-tea/)
 
 ---
 
@@ -174,28 +51,34 @@ I was inspired by the RuPaul's Drag Race show created by RuPaul Charles who is t
 
 Visitors looking for a safe place to share their stories and a good laugh should find this website interesting and charming. We are a charitable organization with a goal of sharing information and helping people to get the answers they are looking for or in case  they need even further help pointing them towards the right direction.  
 
-The front page provides the visitor with a short introduction and the events contacts and info. Besides that they can get some more refreshing and inspiring photos in the webites gallery. 
+The front page provides the visitor with a short introduction and the events contact and info. Besides that they can visit webites gallery full with lgbtq+ related sharing and caring photos. 
 
 In case you wanna have some fun and share your story proceed to our sign up page. 
 
 The website is viewable from different screen sizes, so every user can browse the site.
 
+---
+CORRECTION NEEDED
 ### User Stories
 
 For first time viewers I wanted to make the website visually inticing as well as having a clear understanding what the website is about. Together with the hero image and text, side images and introduction text, the first page quickly suggests that this is a music recording studio. 
 
 If the front page has piqued the viewers interest and they would like to learn more about the studio, they can visit the studio gallery, as well as the social media links in the footer, which are both easily accessible. 
 
+--- 
+
 ## Design
 
 ### Colour Scheme
 
-I've generated a color palette based off of the hero image, which I thought would be a well suited color scheme for the full website. 
+I wanted my page to be colorful but in a appropriate way so I fetched as friendly as possible for eyes color palette based off of the hero image, which I thought would be a well suited color scheme for the full website. 
 
-[Coolors.co](https://coolors.co/) Is the website I've used to generate the colour palette. I've mainly used a black background, white text and #5E4F46 for underlines, and #091B1D as the footer background.
+[Coolors.co](https://coolors.co/) was the website I've used to fetch the colour palette presented.
 
-![Colour Palette](assets/readme/color-palette.png)
+![Colour Palette](assets/readme/coolors-palette.png)
 
+---
+CORRECTION NEEDED
 ### Typography
 
 I wanted to go with a sleek typography, and decided to go with Bebas Neue, Pathway Gothic One and Raleway, all of which I thought fitted well together. 
@@ -203,9 +86,11 @@ We can see Raleway being used on the hero image "Studio North". Pathway Gothic O
 
 ![Typography](assets/readme/google-fonts.png)
 
+---
+
 ### Imagery
 
-As the studio is located in a rural forest area in northern Sweden, I've chosen to use images that gives a warm and earthy feel. 
+Since the organization is all about the lgbtq+ and rainbow I thought that pictures related to that would perfectly fullfill the pages value and message.
 
 ### Wireframes
 
@@ -222,18 +107,20 @@ I ended up not going for the hamburger navigation menu nor the calendar button i
 My website contains 3 pages, index.html which is the home page, gallery.html is the gallery page, and contact.html is the contact page. 
 
 ### Finished look of the Home page
-![Home Page](assets/readme/home-page.jpg)
+![Home Page](assets/readme/main-page-top.png)
+![Home Page](assets/readme/main-page-bttm.png)
 
 ### Finished look of the Gallery page
 Because my screen is a little bit bigger I've had to crop the images to get full view. 
-![Gallery Top](assets/readme/gallery-page-1.jpg)
-![Gallery Middle](assets/readme/gallery-page-2.jpg)
-![Gallery Bottom](assets/readme/gallery-page-3.jpg)
+![Gallery Top](assets/readme/gallery-1.png)
+![Gallery Middle](assets/readme/gallery-2.png)
+![Gallery Middle-2](assets/readme/gallery-3.png)
+![Gallery Bottom](assets/readme/gallery-4.png)
 
 ### Finished look of the Contact page
-![Contact Pag](assets/readme/contact-page-1.jpg)
+![Sign Up Page](assets/readme/sign-up-form.png)
 ## Footer
-![Contact Page footer](assets/readme/contact-page-2.jpg)
+![Footer](assets/readme/footer.png)
 
 ### General features on each page
 
@@ -292,26 +179,29 @@ If you wish to clone my project, please see the following steps below:
 
 ## Testing
 
+All the links in the navigation bar and in the footer has been tested and works.
+
 I have tested all the links, both in the footer and navigation menu to see that all the links are working. All links to websites open up in a new tab. I have also resized the screen size manually to verify that the media queries are working and that the website is responsive to different screen resolutions. 
 
-The mobile phones I have tested resolution with are: 
-- Samsung Galaxy 8
-- Iphone 12 Pro
-- Blackberry Z30
-- Nexus 5
+I have used Responsinator.com for testing:
+- [responsinator](http://www.responsinator.com/)
+
 
 ### Lighthouse
-![Lighthouse](assets/readme/lighthouse.jpg)
+![Lighthouse](assets/readme/lighthouse.png)
 
 ### W3C HTML Validator
 ![W3C HTML Validator](assets/readme/w3c-validator.jpg)
 
 ### W3C CSS Validator
-![W3C CSS Validator](assets/readme/w3c-css.jpg)
+![W3C CSS Validator](assets/readme/css-validator.png)
 
 ### Known bugs
 
 No known bugs detected
+
+---
+CORRECTION NEEDED
 
 ### Solved Bugs
 
@@ -339,29 +229,28 @@ Some bugs I've encountered and fixed:
 
 ## Credits
 
-The Love Running project has been a design inspiration for my own project.
+Code Institue projects: Coders Coffehouse and Love Running has been the inspiration for my websites design.
 The help I've used with syntax and formatting, please see links and description below.
 
 ### Code Used
 
-- [How to stick footer to bottom of page](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
+- [w3schools](https://www.w3schools.com/)
 - [How to position text above an image](https://www.w3schools.com/HOWTO/howto_css_image_text.asp)
-- [How to style inputs](https://www.w3schools.com/css/css_form.asp)
-- [Cursor in the middle of text area](https://stackoverflow.com/questions/9070924/cursor-in-the-middle-of-a-textarea-box)
-- [How to center div inbetween two divs](https://stackoverflow.com/questions/3172738/centering-a-div-between-one-thats-floated-right-and-one-thats-floated-left)
-- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Date input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
+- [CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
+- [Grid-View](https://www.w3schools.com/css/css_rwd_grid.asp)
+- [emmet.io](https://docs.emmet.io/cheat-sheet/)
+
 
 ### Content
 
-I have written most content on the website. Some code has been borrowed from other authors, please see Code Used.
+The code is mostly created by me and I was inspired by some of the contect in the above mentioned section, Code Used plus by the code watched on LSM in CI projects.
 
 ###  Media
 
-All images are royalty free and has been taken from
+All images are downloaded from
 [Unsplash](https://unsplash.com/) and
 [Pexels](https://www.pexels.com/sv-se/) plus
-some private pictures.
+and I used private pictures.
   
 ###  Acknowledgments
 
