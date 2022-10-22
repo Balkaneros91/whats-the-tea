@@ -24,10 +24,6 @@ body {
     color: rgb(240, 237, 230);
 }
 
-#page-header {
-    background-color: #2E4756;
-}
-
 #logo {
     font-family: 'Great Vibes', sans-serif;
     font-size: 300%;
@@ -100,10 +96,6 @@ to {
     text-align: center;
 }
 
-#about, #contact {
-    background-color: #2E4756;
-}
-
 #about a, #contact a{
     text-decoration: none;
 }
@@ -143,7 +135,7 @@ to {
 
 #establish > p, #empower > p, #inspire > p, #inspire1 > p {
     font-size: 100%;    
-    padding: 15px;
+    padding: 5px;
 }
 
 #establish {
@@ -191,14 +183,9 @@ to {
 
 /* footer */
 
-#page-footer {
-    background-color: #2E4756;
-
-}
-
 #social-media {
     text-align: center;
-    font-size: 130%;
+    font-size: 150%;
     padding: 20px;
     margin-top: 15px;
 }
@@ -277,7 +264,7 @@ to {
     width: 100%;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 250px) {
 
     /* For tablets: */
     .col-s-1 {
@@ -568,7 +555,7 @@ to {
     }
 
     #logo-image {
-        height: 1000px;
+        height: 900px;
     }
 
     #quotation {
