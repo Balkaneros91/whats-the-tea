@@ -179,9 +179,7 @@ If you wish to clone my project, please see the following steps below:
 
 ## Testing
 
-All the links in the navigation bar and in the footer has been tested and works.
-
-I have tested all the links, both in the footer and navigation menu to see that all the links are working. All links to websites open up in a new tab. I have also resized the screen size manually to verify that the media queries are working and that the website is responsive to different screen resolutions. 
+All the links in the navigation bar and in the footer has been tested and works. The logo link always brings us back to the main page, while the About and Contact links are only index.html local links so avoid scrolling up and down on the page. The rest as Gallery and Sign Up links opens a new tab in the browser for easier navigation between pages. And the deployed website has been tested in Chrome, Safari, Internet Explorer (Opera) and Firefox. Media queries looks good and been tested throughout different screen sizes.
 
 I have used Responsinator.com for testing:
 - [responsinator](http://www.responsinator.com/)
