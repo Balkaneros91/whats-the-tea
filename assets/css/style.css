@@ -68,13 +68,14 @@ body {
     object-fit: cover;
     margin: 20px 0 10px 0;
 
-/* animates zoom effect on loading page */
+    /* inspiration from Love Running */
+/* zoom animation on loading page */
 animation-name: logo-zoom;
 animation-duration: 5s;
 animation-fill-mode: backwards;
 }
 
-/* creates the level of zoom for hero image */
+/* creates the level of zoom for logo image */
 @keyframes logo-zoom {
 from {
     transform: scale(1.1);
@@ -88,7 +89,7 @@ to {
     font-family: Acme, sans-serif;
     font-size: 95%;
     font-style: italic;
-    color: #000000;
+    color: #2E4756;
     float: right;
     margin-top: 250px;
     margin-right: 25px;
