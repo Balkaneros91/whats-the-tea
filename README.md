@@ -84,7 +84,9 @@ CORRECTION NEEDED
 I wanted to go with a sleek typography, and decided to go with Bebas Neue, Pathway Gothic One and Raleway, all of which I thought fitted well together. 
 We can see Raleway being used on the hero image "Studio North". Pathway Gothic One is used as paragraph text, and Bebas Neue as lesser headers.
 
-![Typography](assets/readme/google-fonts.png)
+![Typography](assets/readme/great-vibes-font.png)
+![Typography](assets/readme/acme-font.png)
+and sans-serif font.
 
 ---
 
@@ -98,9 +100,9 @@ The Wireframes I've made was created for desktop and mobile view. The original d
 
 I ended up not going for the hamburger navigation menu nor the calendar button in the end and settled for just the submit button and the regular navigation menu. I also rearranged the mobile view for the Home page (index.html), showing the picture of the house first, and the about us section second in the column.
 
-![Wireframe Home Page](assets/readme/wireframes-home.png)
-![Wireframe Gallery Page](assets/readme/wireframes-gallery.png)
-![Wireframe Contact Page](assets/readme/wireframes-contact.png)
+![Wireframe Home Page](assets/readme/wireframe-homepage.png)
+![Wireframe Gallery Page](assets/readme/wireframe-gallery.png)
+![Wireframe SignUp Page](assets/readme/wireframe-signup.png)
 
 ## Features
 
