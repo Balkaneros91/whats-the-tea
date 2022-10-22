@@ -92,6 +92,8 @@ to {
     padding: 15px;
     background-color: rgb(252 245 227);
     position: relative;
+    border: 1px solid #2E4756;
+    border-radius: 50px;
 }
 
 /* about us */
