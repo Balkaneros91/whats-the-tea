@@ -229,9 +229,10 @@ to {
     background: url('../image/love-is-love.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     object-fit: cover;
     padding: 50px;
+    margin-top: 10px;
 }
 
 #registration-form {
