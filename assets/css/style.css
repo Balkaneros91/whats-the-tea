@@ -46,6 +46,10 @@ body {
     text-decoration: none;
 }
 
+#menu a:hover {
+    color: #E6B2A6;
+}
+
 .active {
     border-bottom: 1px solid rgb(240, 237, 230);
 }
@@ -64,7 +68,7 @@ body {
 /* animates zoom effect on loading page */
 animation-name: logo-zoom;
 animation-duration: 5s;
-animation-fill-mode: forwards;
+animation-fill-mode: backwards;
 }
 
 /* creates the level of zoom for hero image */
@@ -107,9 +111,8 @@ to {
     text-transform: uppercase;
 }
 
-#establish, #empower, #inspire, #inspire1 {
+#establish, #empower, #inspire, #wise-man {
     height: 250px;
-    overflow: hidden;
 }
 
 #establish {
@@ -124,35 +127,21 @@ to {
     background-color: #3C7A89;
 }
 
-#inspire1 {
+#wise-man {
     background-color: #E6B2A6;
 }
 
-#establish h3, #empower h3, #inspire h3, #inspire1 h3 {
+#establish h3, #empower h3, #inspire h3, #wise-man h3 {
     font-family: sans-serif;
     font-size: 100%;
 }
 
-#establish > p, #empower > p, #inspire > p, #inspire1 > p {
+#establish > p, #empower > p, #inspire > p, #wise-man > p {
     font-size: 100%;    
     padding: 5px;
 }
 
-#establish {
-    background-color: #DBC3D0;
-}
-    
-#empower {
-    background-color: #8C9EAC;
-}
-    
-#inspire {
-    background-color: #3C7A89;
-}
-    
-#inspire1 {
-    background-color: #E6B2A6;
-}
+/* contact and info */
 
 #support {
     background-color: #E6B2A6;
@@ -197,6 +186,10 @@ to {
     text-transform: uppercase;
     display: inline-block;
     margin: 10px;
+}
+
+#social-media a:hover {
+    color: #E6B2A6;
 }
 
 #copyright {
@@ -258,6 +251,9 @@ to {
     font-size: medium;
 }
 
+#join-btn:hover {
+    background-color: #E6B2A6;
+}
 
 /* For mobile phones: */
 [class*="col-"] {
