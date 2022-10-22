@@ -139,8 +139,9 @@ to {
 }
 
 #establish > p, #empower > p, #inspire > p, #wise-man > p {
+    font-family: inherit;
     font-size: 100%;    
-    padding: 5px;
+    padding: 15px;
 }
 
 /* contact and info */
@@ -387,10 +388,6 @@ to {
         margin-top: 400px;
         width: 55%;
         text-align: center;
-    }
-
-    #establish, #empower, #inspire, #wise-man {
-        height: 200px;
     }
 
     #form-image {
