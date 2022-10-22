@@ -332,14 +332,18 @@ to {
 }
 
 @media screen and (min-width: 400px) {
+    #page-logo {
+        width: 100%;
+        text-align: center;
+    }
+
     #quotation {
         width: 45%;
         text-align: center;
     }
 
-    #page-logo {
-        width: 100%;
-        text-align: center;
+    #establish, #empower, #inspire, #wise-man {
+        height: 150px;
     }
 }
 
@@ -418,6 +422,10 @@ to {
         margin-top: 400px;
         width: 55%;
         text-align: center;
+    }
+
+    #establish, #empower, #inspire, #wise-man {
+        height: 200px;
     }
 
     #form-image {
