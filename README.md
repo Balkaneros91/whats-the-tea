@@ -78,11 +78,11 @@ I wanted my page to be colorful but in a appropriate way so I fetched as friendl
 ![Colour Palette](assets/readme/coolors-palette.png)
 
 ---
-CORRECTION NEEDED
 ### Typography
 
-I wanted to go with a sleek typography, and decided to go with Bebas Neue, Pathway Gothic One and Raleway, all of which I thought fitted well together. 
-We can see Raleway being used on the hero image "Studio North". Pathway Gothic One is used as paragraph text, and Bebas Neue as lesser headers.
+It was hard to find a perfectly matching fonts, and now I sound totally like a beginner, which looked good and readable. Finally I picked Great Vibes, Acme and for the rest I thought it looks the best with sans-serif.
+
+I used Great Vibes to decorate the website logo, then I used Acme for the quotation and the main sections title and for the rest I left it on sans-serif since that suited the paragraphs best.
 
 ![Typography](assets/readme/great-vibes-font.png)
 ![Typography](assets/readme/acme-font.png)
